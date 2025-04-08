@@ -1,0 +1,117 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+/* logo */
+.header .logo .rivon-logo {
+    width: 170px;
+    height: 50px;
+}
+
+/* header list */
+.header .header-list .list-item {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.header .header-list .list-item a {
+    text-decoration: none;
+    color: #505656;
+    transition: color ease 0.4s, border-bottom ease 0.4s;
+}
+
+.header .header-list .list-item a:hover {
+    color: #222626;
+    border-bottom: 1px solid #222626;
+}
+
+/* icons */
+.header .icons {
+    margin-right: 60px;
+}
+
+.header .icons .header-icon {
+    margin-right: 5px;
+    cursor: pointer;
+    transition: color ease 0.3s;
+}
+
+.header .icons .header-icon:hover {
+    color: #505656;
+}
+
+/* main */
+
+
+/* footer */
+.footer {
+    box-shadow: 0px 0px 4px 0px;
+    height: 310px;
+    margin-top: 50px; /* bunu sonra silecem */
+}
+
+.footer .footer-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+.footer .footer-body .footer-item .footer-title {
+    font-size: 18px;
+}
+
+.footer .footer-body .footer-item p {
+    font-weight: bold;
+    color: #414646;
+}
+
+.footer .footer-body .footer-item .footer-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-body .footer-item .footer-list .footer-list-item {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.footer .footer-body .footer-item .footer-list .footer-list-item a {
+    text-decoration: none;
+    color: black;
+    transition: color ease 0.3s;
+}
+
+.footer .footer-body .footer-item .footer-list .footer-list-item a:hover {
+    color: #414646;
+}
+
+.footer .footer-body .footer-item .footer-form .email-input {
+    border: 0;
+    border-bottom: 1px solid #414646;
+    margin-top: 5px;
+    margin-right: 5px;
+    line-height: 30px;
+}
+
+.footer .footer-body .footer-item .footer-form .subscribe-btn {
+    border: 1px solid #505656;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+}
+
+.footer .footer-end p {
+    text-align: center;
+}
