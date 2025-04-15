@@ -1,0 +1,52 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Half sleeve T-shirt",
+        "price": 46100,
+        "image": "https://i.postimg.cc/QtrpYzfp/ALFET-PEACH-03470-HERO-grande.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Brown hat craft",
+        "price": 39200,
+        "image": "https://i.postimg.cc/Y2R18bYW/he274-brnxx-copy.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Slim-Fit Formal Suit Blazer",
+        "price": 38300,
+        "image": "https://i.postimg.cc/bv1nnTqd/77010589-52.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Retro Tie-Dye Color Splash T-Shirt",
+        "price": 38900,
+        "image": "https://i.postimg.cc/MTDjPpMS/oversized-tie-dye-t-shirt-navy-white-front-6398e84b74066.jpg"
+      },
+      {
+        "id": "5",
+        "name": "Geometric Print Relaxed Fit Tee",
+        "price": 54000,
+        "image": "https://i.postimg.cc/mgH1xwzV/b-w1.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Floral Pattern Colorful Summer Tee",
+        "price": 54800,
+        "image": "https://i.postimg.cc/DZ2SX3CY/il-300x300-5816091370-h9ig.jpg"
+      },
+      {
+        "id": "7",
+        "name": "Black hat craft",
+        "price": 31200,
+        "image": "https://i.postimg.cc/05zwdPkL/download.jpg"
+      },
+      {
+        "id": "8",
+        "name": "Warm Fit-and-Flare Winter Dress with Fleece Lining",
+        "price": 46900,
+        "image": "https://i.postimg.cc/q7GR0Zkc/0708qf34517.jpg"
+      }
+    ]
+  }

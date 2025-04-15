@@ -2,12 +2,13 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* header */
+/* HEADER */
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 5px 0px;
+    margin-top: 4px;
     box-shadow: 0px 0px 4px 0px;
 }
 
@@ -50,14 +51,271 @@ body {
     color: #505656;
 }
 
-/* main */
+/* MAIN */
+
+/* carousel */
+.main .carousel {
+    margin-top: 30px;
+}
+
+.main .carousel #carouselExample .carousel-inner .carousel-item {
+    height: 600px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.main .carousel #carouselExample .carousel-inner .carousel-item.active {
+    opacity: 1;
+}
+
+.main .carousel-inner .carousel-item:first-child {
+    background-image: url("https://i.postimg.cc/Y0XzT9Wg/hero-image-size-1-2.jpg");
+}
+
+.main .carousel-inner .carousel-item:nth-child(2) {
+    background-image: url("https://i.postimg.cc/g2yn07gt/hero-image-size-2.jpg");
+}
+
+.main .carousel #carouselExample .carousel-inner .carousel-item.active .carousel-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 350px;
+}
+
+.main .carousel #carouselExample .carousel-inner .carousel-item.active .carousel-text h1 {
+    font-size: 50px;
+}
+
+.main .carousel #carouselExample .carousel-inner .carousel-item.active .carousel-text p {
+    font-size: 20px;
+}
+
+.main .carousel #carouselExample .carousel-inner .carousel-item.active .carousel-text .discover-btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    width: 180px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* 4 cards */
+.main .four-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.main .four-cards .card-1,
+.main .four-cards .card-2,
+.main .four-cards .card-3,
+.main .four-cards .card-4 {
+    display: flex;
+    align-items: center;
+}
+
+.main .four-cards .card-1 .car-icon,
+.main .four-cards .card-2 .gift-icon,
+.main .four-cards .card-3 .crown-icon,
+.main .four-cards .card-4 .card-icon {
+    font-size: 35px;
+    margin-right: 20px;
+    color: #414646;
+}
+
+.main .four-cards .card-1 h5,
+.main .four-cards .card-2 h5,
+.main .four-cards .card-3 h5,
+.main .four-cards .card-4 h5 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main .four-cards .card-1 p,
+.main .four-cards .card-2 p,
+.main .four-cards .card-3 p,
+.main .four-cards .card-4 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* our products */
+.main .products {
+    margin-top: 100px;
+}
+
+.main .products h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main .products p {
+    text-align: center;
+    margin-top: 20px;
+    color: #414646;
+    font-size: 15px;
+}
+
+.main .products .cards .card-wrapper .card {
+    margin-top: 50px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main .products .cards .card-wrapper .card:hover {
+    transform: scale(1.02);
+}
+
+.main .products .cards .card-wrapper .card .card-img {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.main .products .cards .card-wrapper .card .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .products .cards .card-wrapper .card .card-img .heart-icon {
+    font-size: 25px;
+    color: black;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: color 0.4s ease;
+}
+
+.main .products .cards .card-wrapper .card .card-img .heart-icon:hover {
+    color: red;
+}
+
+.main .products .cards .card-wrapper .card .card-body .card-title {
+    font-size: 16px;
+}
+
+.main .products .cards .card-wrapper .card .card-body .card-text {
+    font-size: 15px;
+}
+
+/* shop cards */
+.main .shop-cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .shop-cards .card-item .card-img img {
+    max-width: 100%;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.main .shop-cards .card-item .card-img img:hover {
+    transform: scale(1.02);
+}
+
+.main .shop-cards .card-item {
+    position: relative;
+}
 
 
-/* footer */
+.main .shop-cards .card-item .card-text {
+    position: absolute;
+}
+
+.main .shop-cards .card-item .card-text.text-position {
+    top: 135px;
+    left: 30px;
+}
+
+.main .shop-cards .card-item .card-text span {
+    font-size: 16px;
+    color: #414646;
+}
+
+.main .shop-cards .card-item .card-text .title {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main .shop-cards .card-item .card-text .button-wrap .shop-btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    width: 180px;
+    padding: 5px 15px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+/* logo list */
+.main .logo-list {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e7e7e7;
+    padding: 20px 10px;
+}
+
+.main .logo-list .logo-list-images img {
+    margin-left: 110px;
+}
+
+/* shop the look */
+.main .shop-look .container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main .shop-look .container .look-text h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.main .shop-look .container .look-text p {
+    margin-top: 20px;
+    color: #414646;
+    font-size: 14px;
+}
+
+.main .shop-look .container .look-text .discover-btn {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: black;
+    width: 180px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* FOOTER */
 .footer {
     box-shadow: 0px 0px 4px 0px;
-    height: 310px;
-    margin-top: 50px; /* bunu sonra silecem */
+    padding: 30px 0px;
+    margin-top: 50px;
+    /* bunu sonra silecem */
 }
 
 .footer .footer-body {
@@ -69,6 +327,7 @@ body {
 
 .footer .footer-body .footer-item .footer-title {
     font-size: 18px;
+    font-weight: bold;
 }
 
 .footer .footer-body .footer-item p {
