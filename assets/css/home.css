@@ -8,8 +8,12 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 5px 0px;
-    margin-top: 4px;
     box-shadow: 0px 0px 4px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
 }
 
 /* logo */
@@ -55,7 +59,7 @@ body {
 
 /* carousel */
 .main .carousel {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .main .carousel #carouselExample .carousel-inner .carousel-item {
@@ -146,7 +150,7 @@ body {
     font-size: 14px;
 }
 
-/* our products */
+/* featured products */
 .main .products {
     margin-top: 100px;
 }
@@ -266,9 +270,47 @@ body {
     text-decoration: none;
 }
 
+/* banner */
+.main .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main .banner .banner-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #e4e3e3;
+    width: 700px;
+    height: 400px;
+}
+
+.main .banner .banner-body p {
+    font-size: 15px;
+    color: #414646;
+}
+
+.main .banner .banner-body h1 {
+    font-size: 70px;
+    color: black;
+}
+
+.main .banner .banner-body .banner-btn {
+    border: 1px solid #222626;
+    border-radius: 4px;
+    background-color: #e4e3e3;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
 /* logo list */
 .main .logo-list {
-    margin-top: 100px;
+    margin-top: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -282,7 +324,7 @@ body {
 
 /* shop the look */
 .main .shop-look .container {
-    margin-top: 100px;
+    margin-top: 120px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -308,6 +350,55 @@ body {
     color: white;
     font-size: 16px;
     margin-top: 20px;
+}
+
+/* swiper */
+.main .swiper {
+    width: 1200px;
+    margin-top: 80px;
+}
+
+.main .swiper .swiper-wrapper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 370px;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+.main .swiper .swiper-wrapper .swiper-slide .swiper-img .slide-img {
+    width: 100px;
+    height: 100px;
+}
+
+.main .swiper .swiper-wrapper .swiper-slide .swiper-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .swiper .swiper-wrapper .swiper-slide .swiper-body .position {
+    margin-top: 15px;
+}
+
+.main .swiper .swiper-wrapper .swiper-slide .swiper-body .name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.main .swiper .swiper-wrapper .swiper-slide .swiper-body .address {
+    font-size: 14px;
+    color: #505656;
+}
+
+.main .swiper .swiper-button-next,
+.main .swiper .swiper-button-prev {
+    color: #333;
 }
 
 /* FOOTER */
