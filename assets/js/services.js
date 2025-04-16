@@ -24,6 +24,7 @@ function drawCards(products) {
                         <img src="${product.image}" class="card-img-top" alt="${product.name}">
 
                         <i class="heart-icon fa-regular fa-heart position-absolute"></i>
+                        <i class="shopping-basket-icon fa-solid fa-cart-shopping"></i>
                     </div>
                     <div class="card-body">
                         <p class="rating-star">&#11088; &#11088; &#11088; &#11088; &#11088;</p>
