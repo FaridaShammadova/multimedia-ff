@@ -52,12 +52,11 @@ body {
 }
 
 /* MAIN */
-
-/* carousel */
-.main .carousel {
-    margin-top: 40px;
+.main {
+    margin-top: 50px;
 }
 
+/* carousel */
 .main .carousel #carouselExample .carousel-inner .carousel-item {
     height: 600px;
     background-size: 100% 100%;
@@ -448,6 +447,7 @@ body {
     box-shadow: 0px 0px 4px 0px;
     padding: 30px 0px;
     margin-top: 50px;
+    background-color: #e1f3f2;
 }
 
 .footer .footer-body {
@@ -494,6 +494,7 @@ body {
     margin-top: 5px;
     margin-right: 5px;
     line-height: 30px;
+    background-color: #e1f3f2;
 }
 
 .footer .footer-body .footer-item .footer-form .subscribe-btn {

@@ -13,16 +13,3 @@ document.getElementById("scrollTopBtn").addEventListener("click", function () {
         behavior: "smooth"
     });
 });
-
-new Swiper('.swiper', {
-    slidesPerView: 4,
-    spaceBetween: 20,
-    slidesPerGroup: 1,
-    loop: true,
-    speed: 500,
-    loopedSlides: 4,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});

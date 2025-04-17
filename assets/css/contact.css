@@ -56,8 +56,8 @@ body {
     margin-top: 50px;
 }
 
-/* about us */
-.main .about-us {
+/* contact */
+.main .contact-us {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,214 +66,119 @@ body {
     height: 200px;
 }
 
-.main .about-us .title h1 {
+.main .contact-us .title h1 {
     color: black;
 }
 
-.main .about-us .description a {
+.main .contact-us .description a {
     text-decoration: none;
     color: black;
 }
 
-.main .about-us .description .home {
+.main .contact-us .description .home {
     border-bottom: 1px solid black;
     font-size: 14px;
     cursor: pointer;
 }
 
-.main .about-us .description .about {
+.main .contact-us .description .contact {
     font-size: 14px;
     cursor: pointer;
     transition: all ease 0.4s;
 }
 
-.main .about-us .description .about:hover {
+.main .contact-us .description .contact:hover {
     border-bottom: 1px solid black;
 }
 
-/* our dream */
-.main .our-dream {
-    margin-top: 50px;
+/* form */
+.main .form {
+    margin-top: 100px;
     display: flex;
-    justify-content: space-around;
-    height: 600px;
+    justify-content: space-between;
 }
 
-.main .our-dream .dream-img {
+.main .form .description {
     width: 600px;
+    margin-left: 60px;
+}
+
+.main .form .description h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.main .form .description .text {
+    color: #505656;
+    margin-top: 20px;
+}
+
+.main .form .description .phone,
+.main .form .description .email,
+.main .form .description .office {
+    font-size: 25px;
+    font-weight: bold;
+    color: #505656;
+    margin-top: 35px;
+}
+
+.main .form .description .phone span,
+.main .form .description .email span,
+.main .form .description .office span {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.main .form .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    width: 500px;
     height: 450px;
-    margin-left: 20px;
-    border-radius: 20px;
 }
 
-.main .our-dream .description {
-    padding: 30px;
-}
-
-.main .our-dream .description h1 {
-    font-size: 35px;
+.main .form .form-wrapper h2 {
     color: black;
 }
 
-.main .our-dream .description p {
+.main .form .form-wrapper input {
     margin-top: 20px;
-    color: #505656;
-    font-size: 15px;
-    margin-top: 15px;
+    border: 0;
+    border-bottom: 1px solid #414646;
+    background-color: #eaeaea;
+    margin-right: 5px;
+    line-height: 40px;
+    width: 300px;
 }
 
-.main .our-dream .description ul li {
-    list-style: none;
-    font-weight: bold;
-    color: #505656;
+.main .form .form-wrapper .message {
+    line-height: 70px;
 }
 
-.main .our-dream .description .shop-btn {
+.main .form .form-wrapper .send-btn {
+    margin-top: 35px;
     background-color: black;
     color: white;
     border: 1px solid black;
     border-radius: 4px;
-    padding: 7px 20px;
-    font-size: 14px;
-    margin-top: 30px;
-}
-
-/* 3 cards */
-.main .three-cards {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.main .three-cards .card-1,
-.main .three-cards .card-2,
-.main .three-cards .card-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #e3e3e3;
-    border-radius: 8px;
-    width: 400px;
-    padding: 5px 10px;
-}
-
-.main .three-cards .card-1 .car-icon,
-.main .three-cards .card-2 .gift-icon,
-.main .three-cards .card-3 .crown-icon {
-    font-size: 30px;
-    color: #505656;
-}
-
-.main .three-cards .card-1 .text h5,
-.main .three-cards .card-2 .text h5,
-.main .three-cards .card-3 .text h5 {
-    text-align: center;
-    margin-top: 15px;
-    color: black;
-    font-size: 17px;
-}
-
-.main .three-cards .card-1 .text p,
-.main .three-cards .card-2 .text p,
-.main .three-cards .card-3 .text p {
-    margin-top: 15px;
-    color: #414646;
+    width: 100px;
+    padding: 7px 10px;
     font-size: 14px;
 }
 
-/* our story */
-.main .our-story {
-    margin-top: 50px;
-    display: flex;
-}
-
-.main .our-story .story-img {
-    width: 600px;
-    height: 450px;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-
-.main .our-story .description {
-    padding: 30px;
-}
-
-.main .our-story .description h1,
-.main .our-story .description h5 {
-    color: black;
-    margin-top: 10px;
-}
-
-.main .our-story .description p {
-    margin-top: 15px;
-    font-size: 15px;
-    color: #505656;
-}
-
-/* players */
-.main .players {
-    margin-top: 100px;
-}
-
-.main .players .description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main .players .description h1 {
-    color: black;
-}
-
-.main .players .description p {
-    color: #414646;
-    margin-top: 20px;
-}
-
-.main .players .card-slider {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-
-.main .players .card-slider .card-slide {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    height: 400px;
-    width: 300px;
-    background-color: #f3f3f3;
-}
-
-.main .players .card-slider .card-slide .card-img {
+/* map */
+.main .map {
+    margin-top: 80px;
     width: 100%;
-    height: 300px;
-    overflow: hidden;
 }
 
-.main .players .card-slider .card-slide .card-img img {
+.main .map .map-wrapper {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-    display: block;
-}
-
-.main .players .card-slider .card-slide .card-body {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-}
-
-.main .players .card-slider .card-slide .card-body .name {
-    font-weight: bold;
-    color: black;
-    font-size: 17px;
-    margin-top: 10px;
-}
-
-.main .players .card-slider .card-slide .card-body .position {
-    font-size: 15px;
-    color: #555;
+    height: 500px;
 }
 
 /* arrow up */
@@ -306,7 +211,7 @@ body {
 .footer {
     box-shadow: 0px 0px 4px 0px;
     padding: 30px 0px;
-    margin-top: 50px;
+    margin-top: 10px;
     background-color: #e1f3f2;
 }
 
