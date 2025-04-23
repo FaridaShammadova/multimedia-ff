@@ -13,3 +13,12 @@ document.getElementById("scrollTopBtn").addEventListener("click", function () {
         behavior: "smooth"
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const favIcon = document.querySelector(".header-icon.fa-heart");
+  
+    favIcon.addEventListener("click", () => {
+      window.location.href = "favorites.html";
+    });
+  });

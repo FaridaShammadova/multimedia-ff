@@ -1,0 +1,156 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 4px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
+/* logo */
+.header .logo .rivon-logo {
+    width: 170px;
+    height: 50px;
+}
+
+/* header list */
+.header .header-list .list-item {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+.header .header-list .list-item a {
+    text-decoration: none;
+    color: black;
+    transition: color ease 0.4s;
+}
+
+.header .header-list .list-item a:hover {
+    color: #505656;
+}
+
+/* icons */
+.header .icons {
+    margin-right: 60px;
+}
+
+.header .icons .header-icon {
+    margin-right: 5px;
+    cursor: pointer;
+    transition: color ease 0.4s;
+}
+
+.header .icons .header-icon:hover {
+    color: #505656;
+}
+
+/* MAIN */
+.main {
+    margin-top: 100px;
+}
+
+
+
+/* arrow up */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 3px 10px;
+    display: none;
+    transition: all 0.4s ease;
+}
+
+#scrollTopBtn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 3px 10px;
+}
+
+
+/* FOOTER */
+.footer {
+    box-shadow: 0px 0px 4px 0px;
+    padding: 30px 0px;
+    margin-top: 50px;
+    background-color: #e1f3f2;
+}
+
+.footer .footer-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+.footer .footer-body .footer-item .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.footer .footer-body .footer-item p {
+    font-weight: bold;
+    color: #414646;
+}
+
+.footer .footer-body .footer-item .footer-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-body .footer-item .footer-list .footer-list-item {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.footer .footer-body .footer-item .footer-list .footer-list-item a {
+    text-decoration: none;
+    color: black;
+    transition: color ease 0.3s;
+}
+
+.footer .footer-body .footer-item .footer-list .footer-list-item a:hover {
+    color: #414646;
+}
+
+.footer .footer-body .footer-item .footer-form .email-input {
+    border: 0;
+    border-bottom: 1px solid #414646;
+    margin-top: 5px;
+    margin-right: 5px;
+    line-height: 30px;
+    background-color: #e1f3f2;
+}
+
+.footer .footer-body .footer-item .footer-form .subscribe-btn {
+    border: 1px solid #505656;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+}
+
+.footer .footer-end p {
+    text-align: center;
+}

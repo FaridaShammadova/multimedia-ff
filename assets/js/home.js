@@ -1,7 +1,6 @@
-import { getData, getNewData } from "./services.js";
+import getData from "./services.js";
 
 getData();
-getNewData();
 
 
 new Swiper('.swiper', {
@@ -28,5 +27,14 @@ document.getElementById("scrollTopBtn").addEventListener("click", function () {
   window.scrollTo({
     top: 0,
     behavior: "smooth"
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const favIcon = document.querySelector(".header-icon.fa-heart");
+
+  favIcon.addEventListener("click", () => {
+    window.location.href = "favorites.html";
   });
 });

@@ -194,22 +194,25 @@ body {
     object-fit: cover;
 }
 
-.main .products .cards .card-wrapper .card .card-img .heart-icon,
-.main .products .cards .card-wrapper .card .card-img .shopping-basket-icon {
+.main .products .cards .card-wrapper .card .card-img button {
+    all: unset;
+}
+
+.main .products .cards .card-wrapper .card .card-img .card-icon {
     position: absolute;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 50%;
     padding: 5px;
     font-size: 20px;
-    color: black;
+    color: red;
     top: 10px;
     right: 10px;
     cursor: pointer;
-    transition: all 0.4s ease;
+    transition: all 0.1s ease;
 }
 
-.main .products .cards .card-wrapper .card .card-img .heart-icon {
-    right: 50px;
+.main .products .cards .card-wrapper .card .card-img .card-icon:hover {
+    transform: scale(1.03);
 }
 
 .main .products .cards .card-wrapper .card .card-body .card-title {

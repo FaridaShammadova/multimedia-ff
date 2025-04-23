@@ -26,3 +26,12 @@ new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const favIcon = document.querySelector(".header-icon.fa-heart");
+
+    favIcon.addEventListener("click", () => {
+        window.location.href = "favorites.html";
+    });
+});
