@@ -59,8 +59,8 @@ body {
     margin-top: 50px;
 }
 
-/* about us */
-.main .about-us {
+/* blog */
+.main .home-blog {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,220 +69,134 @@ body {
     height: 200px;
 }
 
-.main .about-us .title h1 {
+.main .home-blog .title h1 {
     color: black;
 }
 
-.main .about-us .description a {
+.main .home-blog .description a {
     text-decoration: none;
     color: black;
 }
 
-.main .about-us .description .home {
+.main .home-blog .description .home {
     border-bottom: 1px solid black;
     font-size: 14px;
     cursor: pointer;
 }
 
-.main .about-us .description .about {
+.main .home-blog .description .blog {
     font-size: 14px;
     cursor: pointer;
     transition: all ease 0.4s;
 }
 
-.main .about-us .description .about:hover {
+.main .home-blog .description .blog:hover {
     border-bottom: 1px solid black;
 }
 
-/* our dream */
-.main .our-dream {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    height: 600px;
-}
-
-.main .our-dream .dream-img {
-    width: 600px;
-    height: 450px;
-    margin-left: 20px;
-    border-radius: 20px;
-}
-
-.main .our-dream .description {
-    padding: 30px;
-}
-
-.main .our-dream .description h1 {
-    font-size: 35px;
-    color: black;
-}
-
-.main .our-dream .description p {
-    margin-top: 20px;
-    color: #505656;
-    font-size: 15px;
-    margin-top: 15px;
-}
-
-.main .our-dream .description ul li {
-    list-style: none;
-    font-weight: bold;
-    color: #505656;
-}
-
-.main .our-dream .description .shop-btn {
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 7px 20px;
-    font-size: 14px;
-    margin-top: 30px;
-}
-
-/* 3 cards */
-.main .three-cards {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.main .three-cards .card-1,
-.main .three-cards .card-2,
-.main .three-cards .card-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #e3e3e3;
-    border-radius: 8px;
-    width: 400px;
-    padding: 5px 10px;
-}
-
-.main .three-cards .card-1 .car-icon,
-.main .three-cards .card-2 .gift-icon,
-.main .three-cards .card-3 .crown-icon {
-    font-size: 30px;
-    color: #505656;
-}
-
-.main .three-cards .card-1 .text h5,
-.main .three-cards .card-2 .text h5,
-.main .three-cards .card-3 .text h5 {
-    text-align: center;
-    margin-top: 15px;
-    color: black;
-    font-size: 17px;
-}
-
-.main .three-cards .card-1 .text p,
-.main .three-cards .card-2 .text p,
-.main .three-cards .card-3 .text p {
-    margin-top: 15px;
-    color: #414646;
-    font-size: 14px;
-}
-
-/* our story */
-.main .our-story {
-    margin-top: 50px;
-    display: flex;
-}
-
-.main .our-story .story-img {
-    width: 600px;
-    height: 450px;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-
-.main .our-story .description {
-    padding: 30px;
-}
-
-.main .our-story .description h1,
-.main .our-story .description h5 {
-    color: black;
-    margin-top: 10px;
-}
-
-.main .our-story .description p {
-    margin-top: 15px;
-    font-size: 15px;
-    color: #505656;
-}
-
-/* players */
-.main .players {
+/* about blog */
+.main .about-blog {
     margin-top: 100px;
 }
 
-.main .players .description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main .players .description h1 {
-    color: black;
-}
-
-.main .players .description p {
-    color: #414646;
-    margin-top: 20px;
-}
-
-.main .players .card-slider {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-
-.main .players .card-slider .card-slide {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    height: 400px;
-    width: 300px;
-    background-color: #f3f3f3;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.main .players .card-slider .card-slide:hover {
-    transform: scale(1.04);
-}
-
-.main .players .card-slider .card-slide .card-img {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-}
-
-.main .players .card-slider .card-slide .card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-    display: block;
-}
-
-.main .players .card-slider .card-slide .card-body {
-    display: flex;
-    flex-direction: column;
+.main .about-blog .blog-img img {
+    border-radius: 20px;
     margin-left: 10px;
 }
 
-.main .players .card-slider .card-slide .card-body .name {
-    font-weight: bold;
-    color: black;
-    font-size: 17px;
-    margin-top: 10px;
+.main .about-blog .description {
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
-.main .players .card-slider .card-slide .card-body .position {
+.main .about-blog .description h1 {
+    color: black;
+}
+
+.main .about-blog .description .about-blogger {
+    display: flex;
+}
+
+.main .about-blog .description .about-blogger .item-1,
+.main .about-blog .description .about-blogger .item-2 {
+    color: #505656;
+    font-size: 14px;
+}
+
+.main .about-blog .description .about-blogger .item-2 {
+    margin-left: 25px;
+}
+
+.main .about-blog .description h3 {
+    color: black;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.main .about-blog .description p {
+    margin-top: 15px;
+    color: #505656;
+    font-size: 14px;
+}
+
+.main .about-blog .description .social-media {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .about-blog .description .social-media p {
+    margin-left: 25px;
+    border: 1px solid #414646;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.main .about-blog .description .social-media p:hover {
+    text-decoration: underline;
+}
+
+.main .about-blog .description .social-media p i {
+    margin-right: 3px;
+}
+
+/* form */
+.main .form {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.main .form h1 {
+    color: black;
+    font-size: 30px;
+}
+
+.main .form input {
+    border: 1px solid #414646;
+    border-radius: 3px;
+    width: 600px;
+    height: 50px;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.main .form .message-box input {
+    margin-top: 15px;
+    width: 1230px;
+    height: 100px;
+}
+
+.main .form .post-btn {
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
     font-size: 15px;
-    color: #555;
+    padding: 8px 15px;
 }
 
 /* arrow up */

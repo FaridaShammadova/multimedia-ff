@@ -26,18 +26,17 @@ body {
 .header .header-list .list-item {
     list-style: none;
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .header .header-list .list-item a {
     text-decoration: none;
-    color: #505656;
-    transition: color ease 0.4s, border-bottom ease 0.4s;
+    color: black;
+    transition: color ease 0.4s;
 }
 
 .header .header-list .list-item a:hover {
-    color: #222626;
-    border-bottom: 1px solid #222626;
+    color: #505656;
 }
 
 /* icons */
@@ -48,7 +47,11 @@ body {
 .header .icons .header-icon {
     margin-right: 5px;
     cursor: pointer;
-    color: #414646;
+    transition: color ease 0.4s;
+}
+
+.header .icons .header-icon:hover {
+    color: #505656;
 }
 
 /* MAIN */
@@ -207,11 +210,6 @@ body {
 
 .main .products .cards .card-wrapper .card .card-img .heart-icon {
     right: 50px;
-}
-
-.main .products .cards .card-wrapper .card .card-img .heart-icon:hover,
-.main .products .cards .card-wrapper .card .card-img .shopping-basket-icon:hover {
-    color: red;
 }
 
 .main .products .cards .card-wrapper .card .card-body .card-title {
