@@ -59,7 +59,73 @@ body {
     margin-top: 100px;
 }
 
+/* fav cards */
+.main .fav-products h1 {
+    color: black;
+    margin-left: 10px;
+}
 
+.main .fav-products .cards p {
+    color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.main .fav-products .cards .card-wrapper .card {
+    margin-top: 30px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main .fav-products .cards .card-wrapper .card:hover {
+    transform: scale(1.02);
+}
+
+.main .fav-products .cards .card-wrapper .card .card-img {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.main .fav-products .cards .card-wrapper .card .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .fav-products .cards .card-wrapper .card .card-img button {
+    all: unset;
+}
+
+.main .fav-products .cards .card-wrapper .card .card-img .favorite-btn .card-icon {
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 20px;
+    color: red;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.main .fav-products .cards .card-wrapper .card .card-img .favorite-btn .card-icon:hover {
+    transform: scale(1.03);
+}
+
+.main .fav-products .cards .card-wrapper .card .card-body .card-title {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.main .fav-products .cards .card-wrapper .card .card-body .card-text {
+    font-size: 15px;
+    text-align: center;
+}
 
 /* arrow up */
 #scrollTopBtn {

@@ -1,52 +1,52 @@
 {
-    "products": [
-      {
-        "id": "1",
-        "name": "Half sleeve T-shirt",
-        "price": 46100,
-        "image": "https://i.postimg.cc/QtrpYzfp/ALFET-PEACH-03470-HERO-grande.jpg"
-      },
-      {
-        "id": "2",
-        "name": "Brown hat craft",
-        "price": 39200,
-        "image": "https://i.postimg.cc/m2ZGbc19/drifter-brown-classic-wool-cashmere-cowboy-hat.jpg"
-      },
-      {
-        "id": "3",
-        "name": "Slim-Fit Formal Suit Blazer",
-        "price": 38300,
-        "image": "https://i.postimg.cc/wxZBMQHN/ceehuteey-men-s-3-piece-suit-slim-fit-suits-one-button-formal-wedding-prom-suits-blazer-vest-pants-3.jpg"
-      },
-      {
-        "id": "4",
-        "name": "Retro Tie-Dye Color Splash T-Shirt",
-        "price": 38900,
-        "image": "https://i.postimg.cc/MTDjPpMS/oversized-tie-dye-t-shirt-navy-white-front-6398e84b74066.jpg"
-      },
-      {
-        "id": "5",
-        "name": "Geometric Print Relaxed Fit Tee",
-        "price": 54000,
-        "image": "https://i.postimg.cc/mDctpXBb/men-geometric-print-relaxed-fit-shirt-model-442598483-grey-0-202410200328.jpg"
-      },
-      {
-        "id": "6",
-        "name": "Floral Pattern Colorful Summer Tee",
-        "price": 54800,
-        "image": "https://i.postimg.cc/5yB9DDGM/Lidiia4709.jpg"
-      },
-      {
-        "id": "7",
-        "name": "Black hat craft",
-        "price": 31200,
-        "image": "https://i.postimg.cc/05zwdPkL/download.jpg"
-      },
-      {
-        "id": "8",
-        "name": "Warm Fit-and-Flare Winter Dress with Fleece Lining",
-        "price": 46900,
-        "image": "https://i.postimg.cc/d3jv5rks/3610c8cc1abd17b5ea5bf85a7c598deee1c39b15-cnl1969-1.jpg"
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": "1",
+      "name": "Half sleeve T-shirt",
+      "price": 46100,
+      "image": "https://i.postimg.cc/QtrpYzfp/ALFET-PEACH-03470-HERO-grande.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Brown hat craft",
+      "price": 39200,
+      "image": "https://i.postimg.cc/m2ZGbc19/drifter-brown-classic-wool-cashmere-cowboy-hat.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Slim-Fit Formal Suit Blazer",
+      "price": 38300,
+      "image": "https://i.postimg.cc/wxZBMQHN/ceehuteey-men-s-3-piece-suit-slim-fit-suits-one-button-formal-wedding-prom-suits-blazer-vest-pants-3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Retro Tie-Dye Color Splash T-Shirt",
+      "price": 38900,
+      "image": "https://i.postimg.cc/MTDjPpMS/oversized-tie-dye-t-shirt-navy-white-front-6398e84b74066.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Geometric Print Relaxed Fit Tee",
+      "price": 54000,
+      "image": "https://i.postimg.cc/mDctpXBb/men-geometric-print-relaxed-fit-shirt-model-442598483-grey-0-202410200328.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Floral Pattern Colorful Summer Tee",
+      "price": 54800,
+      "image": "https://i.postimg.cc/5yB9DDGM/Lidiia4709.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Black hat craft",
+      "price": 31200,
+      "image": "https://i.postimg.cc/05zwdPkL/download.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Warm Fit-and-Flare Winter Dress with Fleece Lining",
+      "price": 46900,
+      "image": "https://i.postimg.cc/d3jv5rks/3610c8cc1abd17b5ea5bf85a7c598deee1c39b15-cnl1969-1.jpg"
+    }
+  ]
+}
